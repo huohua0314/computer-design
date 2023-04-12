@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Apr 12 20:10:31 2023
+# Process ID: 18820
+# Current directory: D:/mylinux/mycpu/sourecode/OX_SCPU/OX_SCPU.runs/RAM_B_synth_1
+# Command line: vivado.exe -log RAM_B.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source RAM_B.tcl
+# Log file: D:/mylinux/mycpu/sourecode/OX_SCPU/OX_SCPU.runs/RAM_B_synth_1/RAM_B.vds
+# Journal file: D:/mylinux/mycpu/sourecode/OX_SCPU/OX_SCPU.runs/RAM_B_synth_1\vivado.jou
+#-----------------------------------------------------------
+source RAM_B.tcl -notrace
