@@ -1,0 +1,27 @@
+verilog xil_defaultlib  \
+"../../../../DathPath.gen/sources_1/ip/ALU_0_1/src/or_bit_32_0/src/or_bit_32.v" \
+"../../../../DathPath.gen/sources_1/ip/ALU_0_1/src/or_bit_32_0/sim/or_bit_32_0.v" \
+"../../../../DathPath.gen/sources_1/ip/ALU_0_1/src/MUX8T1_32_0/src/MUX8T1_32.v" \
+"../../../../DathPath.gen/sources_1/ip/ALU_0_1/src/MUX8T1_32_0/sim/MUX8T1_32_0.v" \
+"../../../../DathPath.gen/sources_1/ip/ALU_0_1/src/xor32_0/src/xor32.v" \
+"../../../../DathPath.gen/sources_1/ip/ALU_0_1/src/xor32_0/sim/xor32_0.v" \
+"../../../../DathPath.gen/sources_1/ip/ALU_0_1/src/srl32_0/src/srl32.v" \
+"../../../../DathPath.gen/sources_1/ip/ALU_0_1/src/srl32_0/sim/srl32_0.v" \
+"../../../../DathPath.gen/sources_1/ip/ALU_0_1/src/nor32_0/src/nor32.v" \
+"../../../../DathPath.gen/sources_1/ip/ALU_0_1/src/nor32_0/sim/nor32_0.v" \
+"../../../../DathPath.gen/sources_1/ip/ALU_0_1/src/or32_0/src/or32.v" \
+"../../../../DathPath.gen/sources_1/ip/ALU_0_1/src/or32_0/sim/or32_0.v" \
+"../../../../DathPath.gen/sources_1/ip/ALU_0_1/src/and32_0/src/and32.v" \
+"../../../../DathPath.gen/sources_1/ip/ALU_0_1/src/and32_0/sim/and32_0.v" \
+"../../../../DathPath.gen/sources_1/ip/ALU_0_1/src/adc32_0/src/adc1.v" \
+"../../../../DathPath.gen/sources_1/ip/ALU_0_1/src/adc32_0/src/add16.v" \
+"../../../../DathPath.gen/sources_1/ip/ALU_0_1/src/adc32_0/src/add4.v" \
+"../../../../DathPath.gen/sources_1/ip/ALU_0_1/src/adc32_0/src/clu4.v" \
+"../../../../DathPath.gen/sources_1/ip/ALU_0_1/src/adc32_0/src/adc32.v" \
+"../../../../DathPath.gen/sources_1/ip/ALU_0_1/src/adc32_0/sim/adc32_0.v" \
+"../../../../DathPath.gen/sources_1/ip/ALU_0_1/src/ALU.v" \
+"../../../../DathPath.gen/sources_1/ip/ALU_0_1/sim/ALU_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

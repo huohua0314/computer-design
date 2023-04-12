@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Apr 11 16:53:58 2023
+# Process ID: 5192
+# Current directory: D:/computerdesign/MUX4T1_32
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10176 D:\computerdesign\MUX4T1_32\MUX4T1_32.xpr
+# Log file: D:/computerdesign/MUX4T1_32/vivado.log
+# Journal file: D:/computerdesign/MUX4T1_32\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/computerdesign/MUX4T1_32/MUX4T1_32.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir D:/computerdesign/ip/MUX4T1_32 -vendor xilinx.com -library user -taxonomy /UserIP -import_files -set_current false
+ipx::unload_core d:/computerdesign/ip/MUX4T1_32/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory D:/computerdesign/ip/MUX4T1_32 d:/computerdesign/ip/MUX4T1_32/component.xml
+current_project MUX4T1_32
+set_property core_revision 2 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project tmp_edit_project
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path d:/computerdesign/ip/MUX4T1_32

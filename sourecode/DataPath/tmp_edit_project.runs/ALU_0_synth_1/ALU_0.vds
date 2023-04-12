@@ -1,0 +1,269 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Apr 11 17:27:10 2023
+# Process ID: 1636
+# Current directory: D:/computerdesign/DataPath/tmp_edit_project.runs/ALU_0_synth_1
+# Command line: vivado.exe -log ALU_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ALU_0.tcl
+# Log file: D:/computerdesign/DataPath/tmp_edit_project.runs/ALU_0_synth_1/ALU_0.vds
+# Journal file: D:/computerdesign/DataPath/tmp_edit_project.runs/ALU_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source ALU_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/computerdesign/DataPath'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'd:/computerdesign/DataPath' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'd:/computerdesign/DataPath/tmp_edit_project.runs/ALU_0_synth_1'.)
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/computerdesign/ip/ALU'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado/Vivado/2020.2/data/ip'.
+Command: synth_design -top ALU_0 -part xc7k160tffg676-2L -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Device 21-403] Loading part xc7k160tffg676-2L
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 4988
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1140.547 ; gain = 27.281
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'ALU_0' [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/synth/ALU_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'adc32_0' [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/adc32_0/synth/adc32_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'adc32' [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/adc32_0/src/adc32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'add16' [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/adc32_0/src/add16.v:23]
+INFO: [Synth 8-6157] synthesizing module 'add4' [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/adc32_0/src/add4.v:23]
+INFO: [Synth 8-6157] synthesizing module 'adc1' [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/adc32_0/src/adc1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'adc1' (1#1) [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/adc32_0/src/adc1.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clu4' [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/adc32_0/src/clu4.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'clu4' (2#1) [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/adc32_0/src/clu4.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'add4' (3#1) [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/adc32_0/src/add4.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'add16' (4#1) [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/adc32_0/src/add16.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'adc32' (5#1) [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/adc32_0/src/adc32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'adc32_0' (6#1) [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/adc32_0/synth/adc32_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'and32_0' [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/and32_0/synth/and32_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'and32' [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/and32_0/src/and32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'and32' (7#1) [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/and32_0/src/and32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'and32_0' (8#1) [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/and32_0/synth/and32_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'or32_0' [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/or32_0/synth/or32_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'or32' [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/or32_0/src/or32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'or32' (9#1) [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/or32_0/src/or32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'or32_0' (10#1) [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/or32_0/synth/or32_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'nor32_0' [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/nor32_0/synth/nor32_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'nor32' [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/nor32_0/src/nor32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'nor32' (11#1) [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/nor32_0/src/nor32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'nor32_0' (12#1) [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/nor32_0/synth/nor32_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'srl32_0' [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/srl32_0/synth/srl32_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'srl32' [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/srl32_0/src/srl32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'srl32' (13#1) [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/srl32_0/src/srl32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'srl32_0' (14#1) [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/srl32_0/synth/srl32_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'xor32_0' [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/xor32_0/synth/xor32_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'xor32' [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/xor32_0/src/xor32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'xor32' (15#1) [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/xor32_0/src/xor32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'xor32_0' (16#1) [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/xor32_0/synth/xor32_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'MUX8T1_32_0' [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/MUX8T1_32_0/synth/MUX8T1_32_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'MUX8T1_32' [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/MUX8T1_32_0/src/MUX8T1_32.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'MUX8T1_32' (17#1) [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/MUX8T1_32_0/src/MUX8T1_32.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'MUX8T1_32_0' (18#1) [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/MUX8T1_32_0/synth/MUX8T1_32_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'or_bit_32_0' [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/or_bit_32_0/synth/or_bit_32_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'or_bit_32' [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/or_bit_32_0/src/or_bit_32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'or_bit_32' (19#1) [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/or_bit_32_0/src/or_bit_32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'or_bit_32_0' (20#1) [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/or_bit_32_0/synth/or_bit_32_0.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (21#1) [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/src/ALU.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_0' (22#1) [d:/computerdesign/DataPath/tmp_edit_project.gen/sources_1/ip/ALU_0/synth/ALU_0.v:58]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1192.176 ; gain = 78.910
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1192.176 ; gain = 78.910
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1192.176 ; gain = 78.910
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1192.176 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/computerdesign/DataPath/tmp_edit_project.runs/ALU_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/computerdesign/DataPath/tmp_edit_project.runs/ALU_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1288.547 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 1292.535 ; gain = 3.988
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1292.535 ; gain = 179.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k160tffg676-2L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1292.535 ; gain = 179.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst/adc32_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/and32_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/or32_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/nor32_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/srl32_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/xor32_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/MUX8T1_32_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/or_bit_32_0. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1292.535 ; gain = 179.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1292.535 ; gain = 179.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 2     
+	   3 Input      1 Bit         XORs := 32    
+	   2 Input      1 Bit         XORs := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 600 (col length:100)
+BRAMs: 650 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1292.535 ; gain = 179.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1292.535 ; gain = 179.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1292.535 ; gain = 179.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1309.051 ; gain = 195.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1318.184 ; gain = 204.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1318.184 ; gain = 204.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1318.184 ; gain = 204.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1318.184 ; gain = 204.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1318.184 ; gain = 204.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1318.184 ; gain = 204.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |     8|
+|2     |LUT1   |    32|
+|3     |LUT2   |   146|
+|4     |LUT3   |    54|
+|5     |LUT4   |    16|
+|6     |LUT5   |    78|
+|7     |LUT6   |   130|
+|8     |MUXF7  |    32|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1318.184 ; gain = 204.918
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 1318.184 ; gain = 104.559
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1318.184 ; gain = 204.918
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1325.238 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 40 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1332.133 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+62 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1332.133 ; gain = 218.867
+INFO: [Common 17-1381] The checkpoint 'D:/computerdesign/DataPath/tmp_edit_project.runs/ALU_0_synth_1/ALU_0.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP ALU_0, cache-ID = 489da2149c6fb6c1
+INFO: [Coretcl 2-1174] Renamed 15 cell refs.
+INFO: [Common 17-1381] The checkpoint 'D:/computerdesign/DataPath/tmp_edit_project.runs/ALU_0_synth_1/ALU_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ALU_0_utilization_synth.rpt -pb ALU_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 11 17:27:41 2023...

@@ -1,0 +1,7 @@
+adc1.v,verilog,xil_defaultlib,../../../../ALU.gen/sources_1/ip/adc32_0/src/adc1.v,
+add16.v,verilog,xil_defaultlib,../../../../ALU.gen/sources_1/ip/adc32_0/src/add16.v,
+add4.v,verilog,xil_defaultlib,../../../../ALU.gen/sources_1/ip/adc32_0/src/add4.v,
+clu4.v,verilog,xil_defaultlib,../../../../ALU.gen/sources_1/ip/adc32_0/src/clu4.v,
+adc32.v,verilog,xil_defaultlib,../../../../ALU.gen/sources_1/ip/adc32_0/src/adc32.v,
+adc32_0.v,verilog,xil_defaultlib,../../../../ALU.gen/sources_1/ip/adc32_0/sim/adc32_0.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

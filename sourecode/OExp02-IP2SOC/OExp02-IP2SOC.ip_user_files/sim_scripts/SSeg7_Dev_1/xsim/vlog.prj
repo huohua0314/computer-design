@@ -1,0 +1,12 @@
+verilog xil_defaultlib  \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SSeg7_Dev_1/HexTo8SEG.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SSeg7_Dev_1/MC14495_ZJU.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SSeg7_Dev_1/MUX2T1_64.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SSeg7_Dev_1/P2S.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SSeg7_Dev_1/SSeg_map.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SSeg7_Dev_1/SSeg7_Dev.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SSeg7_Dev_1/sim/SSeg7_Dev_1.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

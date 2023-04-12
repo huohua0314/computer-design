@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Apr 11 17:20:14 2023
+# Process ID: 10820
+# Current directory: D:/computerdesign/DathPath
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17828 D:\computerdesign\DathPath\DathPath.xpr
+# Log file: D:/computerdesign/DathPath/vivado.log
+# Journal file: D:/computerdesign/DathPath\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/computerdesign/DathPath/DathPath.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir D:/computerdesign/ip/DataPath -vendor xilinx.com -library user -taxonomy /UserIP -import_files -set_current false
+ipx::package_project -root_dir D:/computerdesign/ip/DataPath -vendor xilinx.com -library user -taxonomy /UserIP -import_files -set_current false

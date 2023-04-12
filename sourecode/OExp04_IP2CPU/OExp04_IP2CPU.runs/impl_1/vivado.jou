@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Apr 11 15:52:51 2023
+# Process ID: 2540
+# Current directory: D:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.runs/impl_1
+# Command line: vivado.exe -log SCPU.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source SCPU.tcl -notrace
+# Log file: D:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.runs/impl_1/SCPU.vdi
+# Journal file: D:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source SCPU.tcl -notrace

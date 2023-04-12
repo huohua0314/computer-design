@@ -1,0 +1,38 @@
+verilog xil_defaultlib  \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/src/DataPath_0/src/MUX2T1_32_0/src/MUX2T1_32.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/src/DataPath_0/src/MUX2T1_32_0/sim/MUX2T1_32_0.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/src/DataPath_0/src/ALU_0/src/or_bit_32_0/src/or_bit_32.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/src/DataPath_0/src/ALU_0/src/or_bit_32_0/sim/or_bit_32_0.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/src/DataPath_0/src/ALU_0/src/MUX8T1_32_0/src/MUX8T1_32.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/src/DataPath_0/src/ALU_0/src/MUX8T1_32_0/sim/MUX8T1_32_0.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/src/DataPath_0/src/ALU_0/src/xor32_0/src/xor32.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/src/DataPath_0/src/ALU_0/src/xor32_0/sim/xor32_0.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/src/DataPath_0/src/ALU_0/src/srl32_0/src/srl32.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/src/DataPath_0/src/ALU_0/src/srl32_0/sim/srl32_0.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/src/DataPath_0/src/ALU_0/src/nor32_0/src/nor32.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/src/DataPath_0/src/ALU_0/src/nor32_0/sim/nor32_0.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/src/DataPath_0/src/ALU_0/src/or32_0/src/or32.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/src/DataPath_0/src/ALU_0/src/or32_0/sim/or32_0.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/src/DataPath_0/src/ALU_0/src/and32_0/src/and32.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/src/DataPath_0/src/ALU_0/src/and32_0/sim/and32_0.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/src/DataPath_0/src/ALU_0/src/adc32_0/src/adc1.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/src/DataPath_0/src/ALU_0/src/adc32_0/src/add16.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/src/DataPath_0/src/ALU_0/src/adc32_0/src/add4.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/src/DataPath_0/src/ALU_0/src/adc32_0/src/clu4.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/src/DataPath_0/src/ALU_0/src/adc32_0/src/adc32.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/src/DataPath_0/src/ALU_0/src/adc32_0/sim/adc32_0.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/src/DataPath_0/src/ALU_0/src/ALU.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/src/DataPath_0/src/ALU_0/sim/ALU_0.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/src/DataPath_0/src/ImmGen.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/src/DataPath_0/src/MUX4T1_32.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/src/DataPath_0/src/REG32.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/src/DataPath_0/src/regs.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/src/DataPath_0/src/DataPath.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/src/DataPath_0/sim/DataPath_0.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/src/SCPU_ctrl.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/src/SCPU.v" \
+"../../../../OExp02-IP2SOC.gen/sources_1/ip/SCPU_0_2/sim/SCPU_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

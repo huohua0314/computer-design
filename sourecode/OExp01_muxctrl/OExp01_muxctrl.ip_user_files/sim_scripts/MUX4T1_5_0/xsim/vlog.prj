@@ -1,0 +1,7 @@
+verilog xil_defaultlib  \
+"../../../../OExp01_muxctrl.gen/sources_1/ip/MUX4T1_5_0/src/MUX4T1_32.v" \
+"../../../../OExp01_muxctrl.gen/sources_1/ip/MUX4T1_5_0/sim/MUX4T1_5_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

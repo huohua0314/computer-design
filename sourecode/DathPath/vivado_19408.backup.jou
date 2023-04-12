@@ -1,0 +1,140 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Apr 11 18:09:32 2023
+# Process ID: 19408
+# Current directory: D:/computerdesign/DathPath
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14812 D:\computerdesign\DathPath\DathPath.xpr
+# Log file: D:/computerdesign/DathPath/vivado.log
+# Journal file: D:/computerdesign/DathPath\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/computerdesign/DathPath/DathPath.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir D:/computerdesign/ip/DataPath -vendor xilinx.com -library user -taxonomy /UserIP -import_files -set_current false -force
+ipx::unload_core d:/computerdesign/ip/DataPath/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory D:/computerdesign/ip/DataPath d:/computerdesign/ip/DataPath/component.xml
+current_project DathPath
+set_property core_revision 2 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project tmp_edit_project
+update_compile_order -fileset sources_1
+current_project DathPath
+current_project tmp_edit_project
+current_project DathPath
+ipx::package_project -root_dir D:/computerdesign/ip/DataPath -vendor xilinx.com -library user -taxonomy /UserIP -import_files -set_current false -force
+ipx::unload_core d:/computerdesign/ip/DataPath/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory D:/computerdesign/ip/DataPath d:/computerdesign/ip/DataPath/component.xml
+current_project tmp_edit_project
+close_project
+ipx::package_project -root_dir D:/computerdesign/ip/DataPath -vendor xilinx.com -library user -taxonomy /UserIP -import_files -set_current false -force
+ipx::unload_core d:/computerdesign/ip/DataPath/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory D:/computerdesign/ip/DataPath d:/computerdesign/ip/DataPath/component.xml
+update_compile_order -fileset sources_1
+set_property core_revision 2 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project DathPath
+current_project tmp_edit_project
+close_project
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir D:/computerdesign/ip/DataPath -vendor xilinx.com -library user -taxonomy /UserIP -import_files -set_current false -force
+ipx::unload_core d:/computerdesign/ip/DataPath/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory D:/computerdesign/ip/DataPath d:/computerdesign/ip/DataPath/component.xml
+current_project DathPath
+set_property core_revision 2 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+open_project D:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.srcs/sources_1/ip/DataPath_0_4/DataPath_0.xci] -no_script -reset -force -quiet
+remove_files  -fileset DataPath_0 D:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.srcs/sources_1/ip/DataPath_0_4/DataPath_0.xci
+update_ip_catalog -rebuild
+create_ip -name DataPath -vendor xilinx.com -library user -version 1.0 -module_name DataPath_0
+generate_target {instantiation_template} [get_files d:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.srcs/sources_1/ip/DataPath_0_5/DataPath_0.xci]
+set_property generate_synth_checkpoint false [get_files  d:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.srcs/sources_1/ip/DataPath_0_5/DataPath_0.xci]
+generate_target all [get_files  d:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.srcs/sources_1/ip/DataPath_0_5/DataPath_0.xci]
+export_ip_user_files -of_objects [get_files d:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.srcs/sources_1/ip/DataPath_0_5/DataPath_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files d:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.srcs/sources_1/ip/DataPath_0_5/DataPath_0.xci] -directory D:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.ip_user_files/sim_scripts -ip_user_files_dir D:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.ip_user_files -ipstatic_source_dir D:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.cache/compile_simlib/modelsim} {questa=D:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.cache/compile_simlib/questa} {riviera=D:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.cache/compile_simlib/riviera} {activehdl=D:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+current_project DathPath
+current_project OExp04_IP2CPU
+update_compile_order -fileset sources_1
+close_project
+open_project D:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.srcs/sources_1/ip/DataPath_0_5/DataPath_0.xci] -no_script -reset -force -quiet
+remove_files  D:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.srcs/sources_1/ip/DataPath_0_5/DataPath_0.xci
+update_ip_catalog -rebuild
+create_ip -name DataPath -vendor xilinx.com -library user -version 1.0 -module_name DataPath_0
+generate_target {instantiation_template} [get_files d:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.srcs/sources_1/ip/DataPath_0_6/DataPath_0.xci]
+set_property generate_synth_checkpoint false [get_files  d:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.srcs/sources_1/ip/DataPath_0_6/DataPath_0.xci]
+generate_target all [get_files  d:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.srcs/sources_1/ip/DataPath_0_6/DataPath_0.xci]
+export_ip_user_files -of_objects [get_files d:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.srcs/sources_1/ip/DataPath_0_6/DataPath_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files d:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.srcs/sources_1/ip/DataPath_0_6/DataPath_0.xci] -directory D:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.ip_user_files/sim_scripts -ip_user_files_dir D:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.ip_user_files -ipstatic_source_dir D:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.cache/compile_simlib/modelsim} {questa=D:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.cache/compile_simlib/questa} {riviera=D:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.cache/compile_simlib/riviera} {activehdl=D:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+current_project DathPath
+current_project OExp04_IP2CPU
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir D:/computerdesign/ip/SCPU -vendor xilinx.com -library user -taxonomy /UserIP -import_files -set_current false -force
+ipx::unload_core d:/computerdesign/ip/SCPU/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory D:/computerdesign/ip/SCPU d:/computerdesign/ip/SCPU/component.xml
+current_project tmp_edit_project
+close_project
+ipx::package_project -root_dir D:/computerdesign/ip/SCPU -vendor xilinx.com -library user -taxonomy /UserIP -import_files -set_current false -force
+ipx::unload_core d:/computerdesign/ip/SCPU/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory D:/computerdesign/ip/SCPU d:/computerdesign/ip/SCPU/component.xml
+current_project OExp04_IP2CPU
+set_property core_revision 2 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project tmp_edit_project
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path d:/computerdesign/ip/SCPU
+open_project D:/computerdesign/OExp02-IP2SOC/OExp02-IP2SOC.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/computerdesign/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/ip/SCPU_0_4/SCPU_0.xci] -no_script -reset -force -quiet
+remove_files  -fileset SCPU_0 D:/computerdesign/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/ip/SCPU_0_4/SCPU_0.xci
+update_ip_catalog -rebuild
+create_ip -name SCPU -vendor xilinx.com -library user -version 1.0 -module_name SCPU_0
+generate_target {instantiation_template} [get_files d:/computerdesign/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/ip/SCPU_0_5/SCPU_0.xci]
+set_property generate_synth_checkpoint false [get_files  d:/computerdesign/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/ip/SCPU_0_5/SCPU_0.xci]
+generate_target all [get_files  d:/computerdesign/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/ip/SCPU_0_5/SCPU_0.xci]
+export_ip_user_files -of_objects [get_files d:/computerdesign/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/ip/SCPU_0_5/SCPU_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files d:/computerdesign/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/ip/SCPU_0_5/SCPU_0.xci] -directory D:/computerdesign/OExp02-IP2SOC/OExp02-IP2SOC.ip_user_files/sim_scripts -ip_user_files_dir D:/computerdesign/OExp02-IP2SOC/OExp02-IP2SOC.ip_user_files -ipstatic_source_dir D:/computerdesign/OExp02-IP2SOC/OExp02-IP2SOC.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/computerdesign/OExp02-IP2SOC/OExp02-IP2SOC.cache/compile_simlib/modelsim} {questa=D:/computerdesign/OExp02-IP2SOC/OExp02-IP2SOC.cache/compile_simlib/questa} {riviera=D:/computerdesign/OExp02-IP2SOC/OExp02-IP2SOC.cache/compile_simlib/riviera} {activehdl=D:/computerdesign/OExp02-IP2SOC/OExp02-IP2SOC.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+current_project DathPath
+current_project OExp02-IP2SOC
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/computerdesign/OExp02-IP2SOC/OExp02-IP2SOC.runs/impl_1/CSSTE.bit} [get_hw_devices xc7k160t_0]
+current_hw_device [get_hw_devices xc7k160t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7k160t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7k160t_0]
+set_property PROGRAM.FILE {D:/computerdesign/OExp02-IP2SOC/OExp02-IP2SOC.runs/impl_1/CSSTE.bit} [get_hw_devices xc7k160t_0]
+program_hw_devices [get_hw_devices xc7k160t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+current_project DathPath
+current_project OExp04_IP2CPU
+current_project OExp02-IP2SOC
+close_project
+close_project

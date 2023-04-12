@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Apr  9 14:12:01 2023
+# Process ID: 16356
+# Current directory: D:/computerdesign/Registes_files
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28244 D:\computerdesign\Registes_files\Registes_files.xpr
+# Log file: D:/computerdesign/Registes_files/vivado.log
+# Journal file: D:/computerdesign/Registes_files\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/computerdesign/Registes_files/Registes_files.xpr
+launch_simulation
+source reg_tb.tcl
+update_compile_order -fileset sources_1
+set_property  ip_repo_paths  {d:/computerdesign/ip/register_files D:/computerdesign/DathPath} [current_project]
+update_ip_catalog
+close_sim

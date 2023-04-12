@@ -1,0 +1,7 @@
+verilog xil_defaultlib  \
+"../../../../OExp01_muxctrl.gen/sources_1/ip/MUX8T1_8_0/src/MUX8T1_8.v" \
+"../../../../OExp01_muxctrl.gen/sources_1/ip/MUX8T1_8_0/sim/MUX8T1_8_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

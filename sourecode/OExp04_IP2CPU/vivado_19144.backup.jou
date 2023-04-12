@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Apr 11 17:17:18 2023
+# Process ID: 19144
+# Current directory: D:/computerdesign/OExp04_IP2CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14980 D:\computerdesign\OExp04_IP2CPU\OExp04_IP2CPU.xpr
+# Log file: D:/computerdesign/OExp04_IP2CPU/vivado.log
+# Journal file: D:/computerdesign/OExp04_IP2CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/computerdesign/OExp04_IP2CPU/OExp04_IP2CPU.xpr
+update_compile_order -fileset sources_1
+update_ip_catalog -rebuild

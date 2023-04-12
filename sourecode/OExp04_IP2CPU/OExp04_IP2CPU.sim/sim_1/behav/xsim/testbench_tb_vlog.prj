@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../OExp04_IP2CPU.gen/sources_1/ip/ROM_B/sim/ROM_B.v" \
+"C:/Users/Administrator/Desktop/计组/lab2/lab02/OExp02-IP2SOC/IP/Supplementary/RAM_B.v" \
+"C:/Users/Administrator/Desktop/计组/lab2/lab02/OExp02-IP2SOC/IP/CPU/SCPU.v" \
+"../../../../OExp04_IP2CPU.srcs/sources_1/new/testbench.v" \
+"../../../../OExp04_IP2CPU.srcs/sim_1/new/testbench_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

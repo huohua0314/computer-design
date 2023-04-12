@@ -1,0 +1,8 @@
+HexTo8SEG.v,verilog,xil_defaultlib,../../../../OExp02-IP2SOC.gen/sources_1/ip/SSeg7_Dev_1/HexTo8SEG.v,
+MC14495_ZJU.v,verilog,xil_defaultlib,../../../../OExp02-IP2SOC.gen/sources_1/ip/SSeg7_Dev_1/MC14495_ZJU.v,
+MUX2T1_64.v,verilog,xil_defaultlib,../../../../OExp02-IP2SOC.gen/sources_1/ip/SSeg7_Dev_1/MUX2T1_64.v,
+P2S.v,verilog,xil_defaultlib,../../../../OExp02-IP2SOC.gen/sources_1/ip/SSeg7_Dev_1/P2S.v,
+SSeg_map.v,verilog,xil_defaultlib,../../../../OExp02-IP2SOC.gen/sources_1/ip/SSeg7_Dev_1/SSeg_map.v,
+SSeg7_Dev.v,verilog,xil_defaultlib,../../../../OExp02-IP2SOC.gen/sources_1/ip/SSeg7_Dev_1/SSeg7_Dev.v,
+SSeg7_Dev_1.v,verilog,xil_defaultlib,../../../../OExp02-IP2SOC.gen/sources_1/ip/SSeg7_Dev_1/sim/SSeg7_Dev_1.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

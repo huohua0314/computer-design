@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Apr 11 17:43:42 2023
+# Process ID: 15708
+# Current directory: D:/computerdesign/DataPath
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7132 D:\computerdesign\DataPath\tmp_edit_project.xpr
+# Log file: D:/computerdesign/DataPath/vivado.log
+# Journal file: D:/computerdesign/DataPath\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/computerdesign/DataPath/tmp_edit_project.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir D:/computerdesign/ip/DataPath -vendor xilinx.com -library user -taxonomy /UserIP -import_files -set_current false
+ipx::unload_core d:/computerdesign/ip/DataPath/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory D:/computerdesign/ip/DataPath d:/computerdesign/ip/DataPath/component.xml

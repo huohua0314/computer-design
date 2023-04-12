@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ADC32.srcs/sources_1/new/adc1.v" \
+"../../../../ADC32.srcs/sources_1/new/adc32.v" \
+"../../../../ADC32.srcs/sources_1/new/add16.v" \
+"../../../../ADC32.srcs/sources_1/new/add4.v" \
+"../../../../ADC32.srcs/sources_1/new/clu4.v" \
+"../../../../ADC32.srcs/sim_1/new/adc_32_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,14 @@
+verilog xil_defaultlib  \
+"../../../../OX_SCPU.gen/sources_1/ip/DataPath_0_8/src/MUX2T1_32_0/src/MUX2T1_32.v" \
+"../../../../OX_SCPU.gen/sources_1/ip/DataPath_0_8/src/MUX2T1_32_0/sim/MUX2T1_32_0.v" \
+"../../../../OX_SCPU.gen/sources_1/ip/DataPath_0_8/src/ALU.v" \
+"../../../../OX_SCPU.gen/sources_1/ip/DataPath_0_8/src/ImmGen.v" \
+"../../../../OX_SCPU.gen/sources_1/ip/DataPath_0_8/src/MUX4T1_32.v" \
+"../../../../OX_SCPU.gen/sources_1/ip/DataPath_0_8/src/REG32.v" \
+"../../../../OX_SCPU.gen/sources_1/ip/DataPath_0_8/src/regs.v" \
+"../../../../OX_SCPU.gen/sources_1/ip/DataPath_0_8/src/DataPath.v" \
+"../../../../OX_SCPU.gen/sources_1/ip/DataPath_0_8/sim/DataPath_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort
