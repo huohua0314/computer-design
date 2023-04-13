@@ -20,23 +20,21 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module SCPU_ctrl(OPcode, Fun3, Fun7, MIO_ready, ImmSel, ALUSrc_B, 
-  MemtoReg, Jump, Branch, RegWrite, MemRW, ALU_Control, CPU_MIO)
-/* synthesis syn_black_box black_box_pad_pin="OPcode[4:0],Fun3[2:0],Fun7,MIO_ready,ImmSel[1:0],ALUSrc_B,MemtoReg[1:0],Jump,Branch,RegWrite,MemRW,ALU_Control[2:0],CPU_MIO" */;
-  input [4:0]OPcode;
-  input [2:0]Fun3;
-  input Fun7;
-  input MIO_ready;
-  output reg [1:0]ImmSel;
-  output reg ALUSrc_B;
-  output reg [1:0]MemtoReg;
-  output reg Jump;
-  output reg Branch;
-  output reg RegWrite;
-  output reg MemRW;
-  output reg [2:0]ALU_Control;
-  output reg CPU_MIO;
-
+module SCPU_ctrl(
+  input [4:0]OPcode,
+  input [2:0]Fun3,
+  input Fun7,
+  input MIO_ready,
+  output reg [1:0]ImmSel,
+  output reg ALUSrc_B,
+  output reg [1:0]MemtoReg,
+  output reg Jump,
+  output reg Branch,
+  output reg RegWrite,
+  output reg MemRW,
+  output reg [2:0]ALU_Control,
+  output reg CPU_MIO
+);
   wire [3:0] fun;
   reg [1:0] ALU_op;
 

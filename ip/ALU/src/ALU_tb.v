@@ -49,5 +49,9 @@ module ALU_tb(
    A=32'h01234567;
    B=32'h76543210;
    ALU_op = 3'b111;
+   #100;
+   A=32'b1000;
+    B = 32'b1000;
+    ALU_op =3'b110;
    end
 endmodule

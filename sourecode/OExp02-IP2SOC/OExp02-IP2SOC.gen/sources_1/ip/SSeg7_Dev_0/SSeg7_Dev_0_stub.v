@@ -3,8 +3,8 @@
 // Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
 // Date        : Sun Mar 19 17:37:27 2023
 // Host        : DESKTOP-6IJ8HIK running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub
-//               d:/computerdesign/OExp02-IP2SOC/OExp02-IP2SOC.gen/sources_1/ip/SSeg7_Dev_0/SSeg7_Dev_0_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top SSeg7_Dev_0 -prefix
+//               SSeg7_Dev_0_ SSeg7_Dev_0_stub.v
 // Design      : SSeg7_Dev_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7k160tffg676-2L

@@ -1,0 +1,14 @@
+verilog xil_defaultlib  \
+"../../../../OExp04_IP2CPU.gen/sources_1/ip/DataPath_0_12/src/MUX2T1_32_0/src/MUX2T1_32.v" \
+"../../../../OExp04_IP2CPU.gen/sources_1/ip/DataPath_0_12/src/MUX2T1_32_0/sim/MUX2T1_32_0.v" \
+"../../../../OExp04_IP2CPU.gen/sources_1/ip/DataPath_0_12/src/ALU.v" \
+"../../../../OExp04_IP2CPU.gen/sources_1/ip/DataPath_0_12/src/ImmGen.v" \
+"../../../../OExp04_IP2CPU.gen/sources_1/ip/DataPath_0_12/src/MUX4T1_32.v" \
+"../../../../OExp04_IP2CPU.gen/sources_1/ip/DataPath_0_12/src/REG32.v" \
+"../../../../OExp04_IP2CPU.gen/sources_1/ip/DataPath_0_12/src/regs.v" \
+"../../../../OExp04_IP2CPU.gen/sources_1/ip/DataPath_0_12/src/DataPath.v" \
+"../../../../OExp04_IP2CPU.gen/sources_1/ip/DataPath_0_12/sim/DataPath_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

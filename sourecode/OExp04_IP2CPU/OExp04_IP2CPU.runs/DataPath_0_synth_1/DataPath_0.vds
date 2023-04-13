@@ -1,0 +1,244 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Apr 12 19:49:18 2023
+# Process ID: 20680
+# Current directory: D:/mylinux/mycpu/sourecode/OExp04_IP2CPU/OExp04_IP2CPU.runs/DataPath_0_synth_1
+# Command line: vivado.exe -log DataPath_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source DataPath_0.tcl
+# Log file: D:/mylinux/mycpu/sourecode/OExp04_IP2CPU/OExp04_IP2CPU.runs/DataPath_0_synth_1/DataPath_0.vds
+# Journal file: D:/mylinux/mycpu/sourecode/OExp04_IP2CPU/OExp04_IP2CPU.runs/DataPath_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source DataPath_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/computerdesign/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado/Vivado/2020.2/data/ip'.
+Command: synth_design -top DataPath_0 -part xc7k160tffg676-2L -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Device 21-403] Loading part xc7k160tffg676-2L
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 19700
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1139.684 ; gain = 30.441
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'DataPath_0' [d:/mylinux/mycpu/sourecode/OExp04_IP2CPU/OExp04_IP2CPU.gen/sources_1/ip/DataPath_0_12/synth/DataPath_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'DataPath' [d:/mylinux/mycpu/sourecode/OExp04_IP2CPU/OExp04_IP2CPU.gen/sources_1/ip/DataPath_0_12/src/DataPath.v:24]
+INFO: [Synth 8-6157] synthesizing module 'ImmGen' [d:/mylinux/mycpu/sourecode/OExp04_IP2CPU/OExp04_IP2CPU.gen/sources_1/ip/DataPath_0_12/src/ImmGen.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ImmGen' (1#1) [d:/mylinux/mycpu/sourecode/OExp04_IP2CPU/OExp04_IP2CPU.gen/sources_1/ip/DataPath_0_12/src/ImmGen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'REG32' [d:/mylinux/mycpu/sourecode/OExp04_IP2CPU/OExp04_IP2CPU.gen/sources_1/ip/DataPath_0_12/src/REG32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'REG32' (2#1) [d:/mylinux/mycpu/sourecode/OExp04_IP2CPU/OExp04_IP2CPU.gen/sources_1/ip/DataPath_0_12/src/REG32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'regs' [d:/mylinux/mycpu/sourecode/OExp04_IP2CPU/OExp04_IP2CPU.gen/sources_1/ip/DataPath_0_12/src/regs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'regs' (3#1) [d:/mylinux/mycpu/sourecode/OExp04_IP2CPU/OExp04_IP2CPU.gen/sources_1/ip/DataPath_0_12/src/regs.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [d:/mylinux/mycpu/sourecode/OExp04_IP2CPU/OExp04_IP2CPU.gen/sources_1/ip/DataPath_0_12/src/ALU.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (4#1) [d:/mylinux/mycpu/sourecode/OExp04_IP2CPU/OExp04_IP2CPU.gen/sources_1/ip/DataPath_0_12/src/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MUX2T1_32_0' [d:/mylinux/mycpu/sourecode/OExp04_IP2CPU/OExp04_IP2CPU.gen/sources_1/ip/DataPath_0_12/src/MUX2T1_32_0/synth/MUX2T1_32_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'MUX2T1_32' [d:/mylinux/mycpu/sourecode/OExp04_IP2CPU/OExp04_IP2CPU.gen/sources_1/ip/DataPath_0_12/src/MUX2T1_32_0/src/MUX2T1_32.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'MUX2T1_32' (5#1) [d:/mylinux/mycpu/sourecode/OExp04_IP2CPU/OExp04_IP2CPU.gen/sources_1/ip/DataPath_0_12/src/MUX2T1_32_0/src/MUX2T1_32.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'MUX2T1_32_0' (6#1) [d:/mylinux/mycpu/sourecode/OExp04_IP2CPU/OExp04_IP2CPU.gen/sources_1/ip/DataPath_0_12/src/MUX2T1_32_0/synth/MUX2T1_32_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'MUX4T1_32' [d:/mylinux/mycpu/sourecode/OExp04_IP2CPU/OExp04_IP2CPU.gen/sources_1/ip/DataPath_0_12/src/MUX4T1_32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MUX4T1_32' (7#1) [d:/mylinux/mycpu/sourecode/OExp04_IP2CPU/OExp04_IP2CPU.gen/sources_1/ip/DataPath_0_12/src/MUX4T1_32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'DataPath' (8#1) [d:/mylinux/mycpu/sourecode/OExp04_IP2CPU/OExp04_IP2CPU.gen/sources_1/ip/DataPath_0_12/src/DataPath.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'DataPath_0' (9#1) [d:/mylinux/mycpu/sourecode/OExp04_IP2CPU/OExp04_IP2CPU.gen/sources_1/ip/DataPath_0_12/synth/DataPath_0.v:58]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1194.133 ; gain = 84.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1194.133 ; gain = 84.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1194.133 ; gain = 84.891
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 1194.133 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/mylinux/mycpu/sourecode/OExp04_IP2CPU/OExp04_IP2CPU.runs/DataPath_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/mylinux/mycpu/sourecode/OExp04_IP2CPU/OExp04_IP2CPU.runs/DataPath_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1301.246 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.073 . Memory (MB): peak = 1305.211 ; gain = 3.965
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1305.211 ; gain = 195.969
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k160tffg676-2L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1305.211 ; gain = 195.969
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst/MUXALU. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/MUXPC1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/MUXPC2. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1305.211 ; gain = 195.969
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1305.211 ; gain = 195.969
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   33 Bit       Adders := 1     
+	   2 Input   32 Bit       Adders := 3     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 33    
++---Muxes : 
+	   4 Input   32 Bit        Muxes := 2     
+	  33 Input   32 Bit        Muxes := 2     
+	   2 Input   32 Bit        Muxes := 4     
+	   2 Input    1 Bit        Muxes := 32    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 600 (col length:100)
+BRAMs: 650 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:00:45 . Memory (MB): peak = 1305.211 ; gain = 195.969
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 1305.211 ; gain = 195.969
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:50 ; elapsed = 00:00:51 . Memory (MB): peak = 1305.211 ; gain = 195.969
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:51 ; elapsed = 00:00:53 . Memory (MB): peak = 1311.121 ; gain = 201.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 1324.539 ; gain = 215.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 1324.539 ; gain = 215.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 1324.539 ; gain = 215.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 1324.539 ; gain = 215.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 1324.539 ; gain = 215.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 1324.539 ; gain = 215.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    33|
+|2     |LUT1   |    35|
+|3     |LUT2   |    40|
+|4     |LUT3   |   109|
+|5     |LUT4   |    68|
+|6     |LUT5   |   135|
+|7     |LUT6   |   657|
+|8     |MUXF7  |   256|
+|9     |FDCE   |  1024|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 1324.539 ; gain = 215.297
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:48 ; elapsed = 00:00:53 . Memory (MB): peak = 1324.539 ; gain = 104.219
+Synthesis Optimization Complete : Time (s): cpu = 00:00:54 ; elapsed = 00:00:55 . Memory (MB): peak = 1324.539 ; gain = 215.297
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 1337.641 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 289 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'DataPath_0' is not ideal for floorplanning, since the cellview 'regs' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1337.789 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+35 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:00 ; elapsed = 00:01:08 . Memory (MB): peak = 1337.789 ; gain = 228.547
+INFO: [Common 17-1381] The checkpoint 'D:/mylinux/mycpu/sourecode/OExp04_IP2CPU/OExp04_IP2CPU.runs/DataPath_0_synth_1/DataPath_0.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP DataPath_0, cache-ID = f81673fdd185833d
+INFO: [Coretcl 2-1174] Renamed 10 cell refs.
+INFO: [Common 17-1381] The checkpoint 'D:/mylinux/mycpu/sourecode/OExp04_IP2CPU/OExp04_IP2CPU.runs/DataPath_0_synth_1/DataPath_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file DataPath_0_utilization_synth.rpt -pb DataPath_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 12 19:50:32 2023...

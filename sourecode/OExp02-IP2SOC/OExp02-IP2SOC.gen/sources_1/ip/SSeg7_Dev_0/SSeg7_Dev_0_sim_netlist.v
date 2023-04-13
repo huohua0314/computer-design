@@ -3,8 +3,8 @@
 // Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
 // Date        : Sun Mar 19 17:37:27 2023
 // Host        : DESKTOP-6IJ8HIK running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode funcsim
-//               d:/computerdesign/OExp02-IP2SOC/OExp02-IP2SOC.gen/sources_1/ip/SSeg7_Dev_0/SSeg7_Dev_0_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim -rename_top SSeg7_Dev_0 -prefix
+//               SSeg7_Dev_0_ SSeg7_Dev_0_sim_netlist.v
 // Design      : SSeg7_Dev_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -12,66 +12,6 @@
 // --------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* CHECK_LICENSE_TYPE = "SSeg7_Dev_0,SSeg7_Dev,{}" *) (* DowngradeIPIdentifiedWarnings = "yes" *) (* IP_DEFINITION_SOURCE = "package_project" *) 
-(* X_CORE_INFO = "SSeg7_Dev,Vivado 2020.2" *) 
-(* NotValidForBitStream *)
-module SSeg7_Dev_0
-   (clk,
-    flash,
-    Hexs,
-    LES,
-    point,
-    rst,
-    Start,
-    SW0,
-    seg_clk,
-    seg_clrn,
-    SEG_PEN,
-    seg_sout);
-  (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 clk CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME clk, ASSOCIATED_BUSIF clk, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.000, INSERT_VIP 0" *) input clk;
-  input flash;
-  input [31:0]Hexs;
-  input [7:0]LES;
-  input [7:0]point;
-  (* X_INTERFACE_INFO = "xilinx.com:signal:reset:1.0 rst RST" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME rst, POLARITY ACTIVE_HIGH, INSERT_VIP 0" *) input rst;
-  input Start;
-  input SW0;
-  (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 seg_clk CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME seg_clk, ASSOCIATED_BUSIF seg_clk, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.000, INSERT_VIP 0" *) output seg_clk;
-  output seg_clrn;
-  output SEG_PEN;
-  output seg_sout;
-
-  wire \<const1> ;
-  wire [31:0]Hexs;
-  wire [7:0]LES;
-  wire SEG_PEN;
-  wire SW0;
-  wire Start;
-  wire clk;
-  wire flash;
-  wire [7:0]point;
-  wire rst;
-  wire seg_clk;
-  wire seg_sout;
-
-  assign seg_clrn = \<const1> ;
-  VCC VCC
-       (.P(\<const1> ));
-  SSeg7_Dev_0_SSeg7_Dev inst
-       (.Hexs(Hexs),
-        .LES(LES),
-        .SEG_PEN(SEG_PEN),
-        .SW0(SW0),
-        .Start(Start),
-        .clk(clk),
-        .flash(flash),
-        .point(point),
-        .rst(rst),
-        .s_clk_reg(seg_clk),
-        .seg_sout(seg_sout));
-endmodule
-
-(* ORIG_REF_NAME = "Hex2Seg" *) 
 module SSeg7_Dev_0_Hex2Seg
    (SEG_TXT,
     LES,
@@ -287,7 +227,6 @@ module SSeg7_Dev_0_Hex2Seg_6
         .point(point));
 endmodule
 
-(* ORIG_REF_NAME = "HexTo8SEG" *) 
 module SSeg7_Dev_0_HexTo8SEG
    (SEG_TXT,
     Hexs,
@@ -356,7 +295,6 @@ module SSeg7_Dev_0_HexTo8SEG
         .point(point[0]));
 endmodule
 
-(* ORIG_REF_NAME = "MC14495_ZJU" *) 
 module SSeg7_Dev_0_MC14495_ZJU
    (SEG_TXT,
     LES,
@@ -3716,7 +3654,6 @@ module SSeg7_Dev_0_MC14495_ZJU_9
         .O(XLXN_28));
 endmodule
 
-(* ORIG_REF_NAME = "P2S" *) 
 module SSeg7_Dev_0_P2S
    (s_clk_reg_0,
     SEG_PEN,
@@ -5016,7 +4953,6 @@ module SSeg7_Dev_0_P2S
         .R(1'b0));
 endmodule
 
-(* ORIG_REF_NAME = "SSeg7_Dev" *) 
 module SSeg7_Dev_0_SSeg7_Dev
    (s_clk_reg,
     seg_sout,
@@ -5070,6 +5006,65 @@ module SSeg7_Dev_0_SSeg7_Dev
         .SEG_TXT(XLXN_390),
         .flash(flash),
         .point(point));
+endmodule
+
+(* CHECK_LICENSE_TYPE = "SSeg7_Dev_0,SSeg7_Dev,{}" *) (* DowngradeIPIdentifiedWarnings = "yes" *) (* IP_DEFINITION_SOURCE = "package_project" *) 
+(* X_CORE_INFO = "SSeg7_Dev,Vivado 2020.2" *) 
+(* NotValidForBitStream *)
+module SSeg7_Dev_0
+   (clk,
+    flash,
+    Hexs,
+    LES,
+    point,
+    rst,
+    Start,
+    SW0,
+    seg_clk,
+    seg_clrn,
+    SEG_PEN,
+    seg_sout);
+  (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 clk CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME clk, ASSOCIATED_BUSIF clk, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.000, INSERT_VIP 0" *) input clk;
+  input flash;
+  input [31:0]Hexs;
+  input [7:0]LES;
+  input [7:0]point;
+  (* X_INTERFACE_INFO = "xilinx.com:signal:reset:1.0 rst RST" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME rst, POLARITY ACTIVE_HIGH, INSERT_VIP 0" *) input rst;
+  input Start;
+  input SW0;
+  (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 seg_clk CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME seg_clk, ASSOCIATED_BUSIF seg_clk, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.000, INSERT_VIP 0" *) output seg_clk;
+  output seg_clrn;
+  output SEG_PEN;
+  output seg_sout;
+
+  wire \<const1> ;
+  wire [31:0]Hexs;
+  wire [7:0]LES;
+  wire SEG_PEN;
+  wire SW0;
+  wire Start;
+  wire clk;
+  wire flash;
+  wire [7:0]point;
+  wire rst;
+  wire seg_clk;
+  wire seg_sout;
+
+  assign seg_clrn = \<const1> ;
+  VCC VCC
+       (.P(\<const1> ));
+  SSeg7_Dev_0_SSeg7_Dev inst
+       (.Hexs(Hexs),
+        .LES(LES),
+        .SEG_PEN(SEG_PEN),
+        .SW0(SW0),
+        .Start(Start),
+        .clk(clk),
+        .flash(flash),
+        .point(point),
+        .rst(rst),
+        .s_clk_reg(seg_clk),
+        .seg_sout(seg_sout));
 endmodule
 `ifndef GLBL
 `define GLBL
